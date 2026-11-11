@@ -1,0 +1,4 @@
+interface:
+  display_name: "通用图像反推"
+  short_description: "从参考图提取可迁移造型与画风，编写纯提示词模板并按真实生图结果迭代"
+  default_prompt: "使用 $reverse-image-prompts 分析我提供的参考图，将其反推为无需画风参考图的通用生图提示词；如我要求实测，再在预算内验证。"
